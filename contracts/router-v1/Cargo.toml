@@ -1,5 +1,5 @@
 [package]
-name = "stellar-router"
+name = "stellar-router-v1"
 version = "0.0.0"
 edition = "2021"
 publish = false

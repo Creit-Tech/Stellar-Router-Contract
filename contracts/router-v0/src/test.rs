@@ -40,7 +40,7 @@ fn test_returned_values() {
         "CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV",
     );
 
-    let balances: Vec<Val> = client.exec(
+    let balances: Vec<Val> = client.mock_all_auths().exec(
         &Address::generate(&e),
         &vec![
             &e,
