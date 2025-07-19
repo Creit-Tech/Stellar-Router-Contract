@@ -13,7 +13,6 @@ jobs:
     with:
       release_name: ${{ github.ref_name }}          # use git tag as unique release name
       package: 'stellar-router-v0'                # package name to build
-      make_target: 'build'             # make target to invoke
     secrets: # the authentication token will be automatically created by GitHub
       release_token: ${{ secrets.GITHUB_TOKEN }}    # don't modify this line
 
@@ -22,6 +21,5 @@ jobs:
     with:
       release_name: ${{ github.ref_name }}          # use git tag as unique release name
       package: 'stellar-router-v1'                # package name to build
-      make_target: 'build'             # make target to invoke
     secrets: # the authentication token will be automatically created by GitHub
       release_token: ${{ secrets.GITHUB_TOKEN }}    # don't modify this line
